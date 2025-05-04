@@ -1,15 +1,27 @@
-# Node.js
-node_modules/
-.env
-dist/
+# --- Backend (Node.js) ---
+backend/node_modules/
+backend/.env
+backend/dist/
+backend/logs/
+backend/npm-debug.log*
 
-# Next
+# --- Frontend (Next.js) ---
 frontend/node_modules/
-frontend/build/
+frontend/.next/
+frontend/out/
+frontend/.env*
+frontend/npm-debug.log*
 
-# Logs
+# --- Common ---
 *.log
-
-# OS-specific
+.env
 .DS_Store
 Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# --- Optional: if using Linux/Mac system files ---
+**/.DS_Store
+**/__pycache__/
